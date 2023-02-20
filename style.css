@@ -1,0 +1,78 @@
+jumbotron{
+    background-image:url("https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/82508wd3qbahj3514xfnbfx7ogzr_1576928476_biking_in_spiti.jpg");
+    background-size: 100% 100%;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+
+  #login-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+    display: none;
+  }
+
+  #signup-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px #aaa;
+  }
+
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .form-switch {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .form-switch a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+  form.active {
+    display: block;
+  }
